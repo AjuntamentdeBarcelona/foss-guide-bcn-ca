@@ -45,6 +45,23 @@ extlinks = {
     'issue': ('https://github.com/sphinx-doc/sphinx/issues/%s', 'issue '),
 }
 
+needs_types = [
+    dict(directive="mes", title="Mesura", prefix="M_", color="#BFD8D2", style="node"),
+    dict(directive="rec", title="Recomanació", prefix="R_", color="#DF744A", style="node"),
+    dict(directive="alt", title="Alternativa", prefix="A_", color="#FEDCD2", style="node"),
+    # dict(directive="test", title="Test Case", prefix="T_", color="#DCB239", style="node"),
+    # dict(directive="need", title="Need", prefix="N_", color="#9856a5", style="node"),
+]
+
+needs_tags = [
+    dict(name="Escenari A", description="escenari A"),
+    dict(name="Escenari B", description="escenari B"),
+    dict(name="Escenari C", description="escenari C"),
+    dict(name="Escenari D", description="escenari D"),
+    dict(name="Escenari E", description="escenari E"),
+    dict(name="Escenari F", description="escenari F"),
+]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
