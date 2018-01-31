@@ -12,6 +12,7 @@ Guia per gestionar projectes de Programari Lliure
    :caption: Continguts:
 
    Introduccio
+   Organitzacio
 
 
 Taules i índexs
