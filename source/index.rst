@@ -3,17 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Guia per gestionar projectes de Programari Lliure's documentation!
-=============================================================================
+Guia per gestionar projectes de Programari Lliure
+=================================================
 
 .. toctree::
+   :numbered:
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Continguts:
+
+   Introduccio
 
 
-
-Indices and tables
-==================
+Taules i índexs
+===============
 
 * :ref:`genindex`
 * :ref:`modindex`
