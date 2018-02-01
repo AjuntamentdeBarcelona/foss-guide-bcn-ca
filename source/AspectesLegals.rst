@@ -1,0 +1,291 @@
+***************
+Aspectes legals
+***************
+
+Propietat intel·lectual
+=======================
+
+.. mes:: Establir com a propietari de tot el codi font i la documentació l'Ajuntament de Barcelona
+   :tags: Escenari D; Escenari E
+   :links: A_0117F; A_D3943
+
+   En el cas de projectes nous el que s'ha de valorar és quina entitat garanteix
+   millor que es prendran en cada moment les mesures adequades per difondre el
+   projecte, facilitar contribucions de tercers, fer-lo créixer fins assolir els
+   objectius i fer-lo sostenible a llarg termini.
+   
+   En cas que l'objectiu sigui una cessió de titularitat a un tercer,
+   obligatòriament se li imposarà al contractista una cessió de titularitat, bé
+   sigui a l'Ajuntament, bé sigui a l'entitat que l'ha d'obtenir en darrera
+   instància.
+   
+   Té sentit deixar la titularitat en mans de l'empresa que desenvolupa en cas
+   de:
+   
+   - Components de programari que son d'utilitat general, incloent empreses i no
+     només administracions públiques
+   - El proveïdor és una empresa o cooperativa amb una trajectòria contrastada
+     de publicació de programari lliure i gestió de comunitats obertes, i té una
+     estratègia creïble d'explotació del producte basada en llicències lliures
+   
+   Per contra, té sentit que l'Ajuntament vulgui concentrar tots els drets de
+   propietat sobre projectes emblemàtics, d'utilitat principalment entre
+   administracions públiques, i sobre els quals pretengui determinar en gran
+   mesura les regles de governança.
+
+.. alt:: Establir com a propietari de tot el codi font i la documentació l'empresa o entitat proveïdora
+   :tags: Escenari D
+
+   Fins ara, els contractes amb proveïdors establien que tot el software
+   desenvolupat per a l'Ajuntament en el context del contracte, així com la
+   documentació associada, son propietat de l'Ajuntament.
+   
+   En el context de les llicències lliures o de codi obert, això no té per què
+   ser així. Existeixen bàsicament dues possibilitats (seguint a [Gerloff2014]),
+   i en ambdós casos el resultat final és que el programari es troba a
+   disposició de tothom sota una llicència lliure:
+   
+   #. L'Ajuntament rep la propietat del copyright sobre el codi en virtut del
+      contracte de servei, com fins ara, i distribueix l'obra sota una llicència
+      de programari lliure de la seva elecció.
+   #. El proveïdor manté el copyright sobre l'obra que crea (codi i
+      documentació), però se li imposa l'obligació contractual de publicar-la de
+      manera apropiada sota una determinada llicència de programari lliure (i
+      potser de participar en el manteniment del programari durant el període de
+      temps que s'especifiqui).
+
+.. alt:: Establir com a propietari de tot el codi font una tercera entitat
+   :tags: Escenari D, Escenari E
+
+   Hi ha una tercera opció, si l'objectiu és que la titularitat recaigui
+   finalment en una entitat externa encarregada de la gestió i governança del
+   projecte a llarg termini. Per la naturalesa de la funció a realitzar, aquesta
+   entitat tindrà normalment forma legal de fundació. Això té sentit en
+   projectes on, a més de l'Ajuntament, hi participin financerament i en la
+   presa de decisions d'altres entitats públiques, privades o del tercer sector.
+   En aquest cas cal establir per contracte una cessió de drets, que pot ser
+   directament a la fundació corresponent, o bé en primer terme a l'Ajuntament,
+   que és qui fa el contracte, per tal que sigui aquest qui cedeixi els drets a
+   la fundació en un moment posterior.
+   
+   Això pot ser necessari en cas que estiguem en l'escenari B i per a integrar
+   el codi al producte original ens demanin signar una CLA o contracte
+   equivalent.
+
+Triar una llicència per al codi
+===============================
+
+.. mes:: Triar la llicència AGPL-3.0 com a llicència de distribució del projecte
+   :tags: Escenari D; Escenari E
+   :links: A_03890
+
+   La llicència `GNU Affero General Public License v3.0
+   <https://www.gnu.org/licenses/why-affero-gpl.html>`__ (AGPL-3.0) té totes les
+   característiques que necessitem per als projectes de l'Ajuntament:
+   
+   - És una llicència amb *copyleft*, tal com obliga la llei espanyola per a les
+     administracions públiques que creïn productes de codi obert, i tal com és
+     raonable reclamar a les administracions per evitar una apropiació privada
+     del que ha estat finançat amb diner públic.
+   - Per aplicacions en que els usuaris interactuen principalment a través
+     d'Internet, no permet crear un servei tancat utilitzant programari amb
+     aquesta llicència (estableix l'accés per xarxa com una forma de distribució
+     a efectes de la llicència). És el que s'anomena a vegades *copyleft* de
+     xarxa.
+   - L'òrgan de governança de la llicència és el projecte GNU, que és una
+     organització sense ànim de lucre que treballa en benefici de les comunitats
+     de programari lliure. Per tant, és aquest grup d'activistes i expertes qui
+     dissenyarà les futures versions de la llicència (per adaptar-se a noves
+     circumstàncies tècniques o legals) i les estratègies de defensa legal front
+     a possibles atacs a les llibertats que estableix el seu text.
+   
+   Les raons principals per triar aquesta llicència com a opció per defecte son
+   les següents:
+   
+   - Pertany a la família de llicències de la GNU GPL, que és la més coneguda.
+     La majoria de desenvolupadors estan familiaritzats amb les seves condicions
+     i això fa que ningú hagi de dedicar temps a investigar la llicència per
+     decidir si vol participar en el projecte o no.
+   - Optar per les llicències d'ús més generalitzat redueix el risc de
+     fragmentació d'aquest procomú immaterial universal que suposa el programari
+     lliure, risc provocat per la proliferació de llicències i les seves
+     incompatibilitats recíproques.
+   
+   **Inconvenient.** Està escrita en anglès. A títol informatiu es poden fer
+   servir traduccions a d'altres llengües, però només la versió original té
+   validesa legal.
+
+.. alt:: Triar la llicència EUPL-1.2 com a llicència de distribució del projecte
+   :tags: Escenari D; Escenari E
+
+   La llicència `European Union Public License 1.2
+   <https://joinup.ec.europa.eu/page/introduction-eupl-licence>`__ (EUPL-1.2) és
+   una llicència creada per la Comissió Europea.
+   
+   Presenta com avantatge sobre les llicències de la família GNU GPL el fet de
+   disposar de traduccions legalment vàlides a totes les llengües oficials de la
+   Unió Europea: https://joinup.ec.europa.eu/page/eupl-text-11-12. També en el
+   seu disseny s'ha tingut en compte la diversitat legal dels estats membre en
+   quant a terminologia sobre copyright, garanties i jurisdicció aplicable.
+   
+   De la mateixa manera que la AGPL-3.0, disposa de *copyleft* i de *copyleft*
+   de xarxa. Les condicions de *copyleft* que estableix en cas d'enllaçat
+   (*linking*) amb altres productes son més suaus que les de l'AGPL-3.0, i més
+   semblants a les de la LGPL. No obstant això, molts juristes pensen que
+   aquestes diferències poden ser irrellevants de cara als tribunals europeus.
+   El detall de les diferències amb la GPL-3.0 (i de retruc amb l'AGPL-3.0) es
+   detallen a: https://joinup.ec.europa.eu/news/eupl-or-gplv3-comparison-t.
+   
+   Utilitzar aquesta llicència (en la seva darrera versió, la 1.2) hauria de
+   suposar un risc de fragmentació baix pel procomú del programari lliure, ja
+   que en el seu redactat estableix compatibilitat explícita amb les principals
+   famílies de llicències amb *copyleft*, incloses les de GNU. Es poden trobar
+   més detalls sobre la compatibilitat de la EUPL-1.2 amb altres llicències a:
+   https://joinup.ec.europa.eu/page/eupl-compatible-open-source-licences.
+   
+   L'òrgan de governança de la llicència és la Comissió Europea, a través de la
+   seva iniciativa Join Up.
+   
+   **Inconvenient.** És una llicència molt menys coneguda i estesa que les de la
+   família GNU GPL. Molts desenvolupadors dubtaran de fer-la servir. En el
+   millor dels casos se'ls podrà convèncer de que les seves condicions son molt
+   similars a les de l'AGPL-3.0. En el pitjor escenari, preferiran contribuir a
+   un altre projecte amb una llicència a la que estiguin habituats.
+
+.. mes:: Triar una llicència d'ús comú en l'ecosistema o plataforma tecnològica del component a desenvolupar
+   :tags: Escenari B
+
+Aplicar una llicència a un projecte
+===================================
+
+.. mes:: Escriure una *checklist* amb les obligacions de les llicències usades i fer seguiment del seu compliment
+   :tags: Escenari A; Escenari B; Escenari C; Escenari D; Escenari E
+
+   Cada llicència atorga drets i obligacions diferents, tant per als usuaris com
+   per als desenvolupadors. Cal garantir que es compleix amb les obligacions de
+   totes les llicències dels components principals del projecte, les hagem triat
+   nosaltres o no.
+   
+   Poden ser de molta utilitat els resums que mostra la pàgina
+   https://tldrlegal.com/, per exemple:
+   
+   -  https://tldrlegal.com/license/gnu-affero-general-public-license-v3
+   -  https://tldrlegal.com/license/european-union-public-licence
+
+   També pot servir aquest resum (cal fixar-se sobretot en l'apartat
+   "Conditions" de cada llicència): https://choosealicense.com/licenses/.
+   
+   En el cas de la EUPL també convé llegir el document `Guidelines for users and
+   developers
+   <https://joinup.ec.europa.eu/page/guidelines-users-and-developers>`__.
+
+.. mes:: Incloure la notificació de copyright i de llicència a cada fitxer de codi
+   :tags: Escenari B; Escenari C; Escenari D; Escenari E
+
+   La majoria de llicències especifiquen una condició anomenada en anglès "License
+   and copyright notice".
+   
+   Tots els fitxers de codi del repositori (excloent scripts de *build* o
+   d'instal·lació) han de portar a dalt de tot del fitxer una notificació
+   que faci explícit quines persones o entitats son propietàries legals del
+   codi (en anglès, *copyright holder*), i quina és la llicència que
+   estableix els termes de la distribució.
+   
+   És important assenyalar sota quina versió concreta de la llicència es fa
+   la distribució, i recomanem assenyalar que es donarà per realitzada una
+   actualització automàtica a futures versions de la llicència quan
+   aquestes es publiquin (normalment per adaptar-se a noves situacions
+   tècniques o jurídiques que no s'havien pogut preveure), sense necessitat
+   d'actualitzar tots els fitxers de codi. En els exemples de més avall
+   això s'indica mitjançant frases com "either version X of the License, or
+   (at your option) **any later version**" o bé "version X or – as soon
+   they will be approved by the European Commission - **subsequent
+   versions** of the EUPL".
+   
+   La notificació ha d'anar obviament dins d'un comentari, utilitzant la
+   sintaxi per a comentaris que cada llenguatge de programació utilitzi. I
+   ha d'incloure tots els anys en que s'hagin realitzat modificacions al
+   fitxer. Aquest seria un exemple, si utilitzem la AGPL-3.0 sobre codi
+   java, suposant que el propietari del codi sigui l'Ajuntament de
+   Barcelona::
+
+      /* Copyright (C) 2017, 2018 Ajuntament de Barcelona
+      *
+      * This program is free software: you can redistribute it and/or modify it under
+      * the terms of the GNU Affero General Public License as published by the Free
+      * Software Foundation, either version 3 of the License, or (at your option) any
+      * later version.
+      *
+      * This program is distributed in the hope that it will be useful, but WITHOUT
+      * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+      * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+      * details.
+      *
+      * You should have received a copy of the GNU Affero General Public License
+      * along with this program. If not, see <http://www.gnu.org/licenses/>
+      */
+     
+     /* This file implements a system for ...
+      */
+     
+     import ...
+
+   El mateix exemple utilitzant la EUPL-1.2::
+
+      /* Copyright (C) 2017, 2018 Ajuntament de Barcelona
+       *
+       * Licensed under the EUPL, Version 1.2 or – as soon they will be approved by
+       * the European Commission - subsequent versions of the EUPL (the "Licence");
+       * You may not use this work except in compliance with the Licence. You may
+       * obtain a copy of the Licence at:
+       *
+       * https://joinup.ec.europa.eu/software/page/eupl
+       *
+       * Unless required by applicable law or agreed to in writing, software
+       * distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+       * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+       * Licence for the specific language governing permissions and limitations under
+       * the Licence.
+       */
+      
+      /* This file implements a system for ...
+       */
+      
+      import ...
+
+.. mes:: Utilitzar per a tot el codi que modifica un component ja existent la seva llicència original
+   :tags: Escenari B
+
+   En el cas d'un desenvolupament sota contracte, cal especificar en els plecs
+   aquesta circumstància.
+
+.. mes:: Establir un procediment per garantir la integritat de les contribucions
+   :tags: Escenari C; Escenari D; Escenari E
+
+   Això significa que de tot el codi inclòs al repositori es té permís de la
+   persona que l'ha escrit (que no sempre es la persona que fa el *commit*) per
+   ser allà sota les condicions de la llicència del projecte.
+   
+   Si els propietaris del codi han de ser diferents dels autors (per exemple
+   perquè la propietat és de l'Ajuntament de Barcelona), cal aconseguir una
+   cessió de drets. Aquesta cessió es pot aconseguir de les següents maneres:
+   
+   -  Via un contracte tipus "contributor Agreement"
+   -  Via el propi contracte de la licitació corresponent
+   -  A través directament de la llicència del programari
+
+.. mes:: Obligar a tots el contribuïdors de codi externs a enviar un DCO i signar cada *commit*
+   :tags: Escenari C; Escenari D; Escenari E
+
+   El **Developer's Certificate of Origin (DCO)** és document utilitzat per
+   verificar que els desenvolupadors que fan contribucions al projecte coneixen
+   i accepten la seva llicència.
+
+.. mes:: Preparar materials per explicar la base legal dels contractes i les decisions preses
+
+   Les llicències lliures, i en general el desenvolupament de codi obert, no
+   forma part del currículum estàndard dels advocats. Si els diferents equips
+   legals –de l'Ajuntament, dels adjudicataris– i persones que han de prendre
+   decisions amb implicacions jurídica requereixen explicacions que fonamentin
+   algunes decisions, convé tenir preparat un document amb informació bàsica i
+   enllaços al documents que puguin resoldre els seus dubtes.

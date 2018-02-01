@@ -13,6 +13,7 @@ Guia per gestionar projectes de Programari Lliure
 
    Introduccio
    Organitzacio
+   AspectesLegals
 
 
 Taules i índexs
