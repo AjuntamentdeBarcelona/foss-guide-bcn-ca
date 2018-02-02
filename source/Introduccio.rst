@@ -33,23 +33,3 @@ L'objectiu d'aquesta guia és doble:
 #. Preservar la reputació de l'Ajuntament de Barcelona com a institució que
    col·labora en projectes de programari lliure de manera transparent, confiable
    i tenint en compte les millors pràctiques del sector.
-
-
-Fases dels projectes
-====================
-
-En la organització de la guia s'ha considerat que els projectes poden passar per
-les següents fases:
-
-- **Concepció (I)**. Fase en la que es descobreix una nova necessitat o sorgeix
-  la idea del projecte. Normalment inclou l'elaboració d'un avantprojecte i
-  pot incloure d'altres estudis previs.
-- **Contractació (C)**. Redacció dels plecs per a l'adquisició de serveis de
-  desenvolupament.
-- **Desenvolupament (D)**. Establiment de la infraestructura necessària per a la
-  construcció dels components de software necessaris i tasques d'acompanyament
-  durant tot el procés de desenvolupament.
-- **Pas a producció (P)**. Desplegament del servei, incloent la possible
-  migració de dades i processos des d'un o més sistemes previs.
-- **Explotació (E)**: Fase que s'estén durant tota la vida útil del sistema en
-  producció, incloent les tasques d'operació i manteniment.
