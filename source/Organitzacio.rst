@@ -222,6 +222,10 @@ d'estendre'l "en obert".
 Escenari F: |escenari-F|
 ------------------------
 
+A vegades es vol fer públic un document que s'ha redactat (o que s'ha
+encarregat) i que pot no estar directament vinculat amb un sol projecte de
+programari, com per exemple un estudi de mercat.
+
 Fases dels projectes
 ====================
 
