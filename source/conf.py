@@ -41,8 +41,10 @@ extensions = [
 ]
 
 extlinks = {
-    'joinup': ('https://joinup.ec.europa.eu/%s', 'joinup'),
     'issue': ('https://github.com/sphinx-doc/sphinx/issues/%s', 'issue '),
+    'joinup': ('https://joinup.ec.europa.eu/%s', ''),
+    'mesgov': ('http://ajuntament.barcelona.cat/digital/sites/default/files/%s', ''),
+    'prodoss': ('https://producingoss.com/%s', ''),
 }
 
 needs_types = [
@@ -119,9 +121,6 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 #
 html_theme_options = {
-    # 'typekit_id': hiw1hhg,
-    # 'canonical_url':
-    # 'analytics_id':
     'collapse_navigation': False,
     'sticky_navigation': False,
     'navigation_depth': 4,
@@ -226,5 +225,3 @@ epub_copyright = copyright
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-
