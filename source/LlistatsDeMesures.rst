@@ -2,44 +2,20 @@
 Annex: Llistats de mesures i recomanacions per etiquetes
 ********************************************************
 
-Escenari A
-==========
+Mesures per l'escenari :code:`Adaptació`
+========================================
 
 .. needfilter::
-   :tags: Escenari A
+   :tags: Adaptació
+   :filter: "Contractar" in tags
    :layout: table
 
-Escenari B
-==========
-
 .. needfilter::
-   :tags: Escenari B
+   :tags: Adaptació
+   :filter: "Dia1" in tags
    :layout: table
 
-Escenari C
-==========
-
 .. needfilter::
-   :tags: Escenari C
-   :layout: table
-
-Escenari D
-==========
-
-.. needfilter::
-   :tags: Escenari D
-   :layout: table
-
-Escenari E
-==========
-
-.. needfilter::
-   :tags: Escenari E
-   :layout: table
-
-Escenari F
-==========
-
-.. needfilter::
-   :tags: Escenari F
+   :tags: Adaptació
+   :filter: "Contractar" not in tags and "Dia1" not in tags
    :layout: table

@@ -6,7 +6,7 @@ Propietat intel·lectual
 =======================
 
 .. mes:: Establir com a propietari de tot el codi font i la documentació l'Ajuntament de Barcelona
-   :tags: Escenari D; Escenari E
+   :tags: NouProducte; Publicació; Contractar
    :links: A_0117F; A_D3943
 
    En el cas de projectes nous el que s'ha de valorar és quina entitat garanteix
@@ -34,7 +34,7 @@ Propietat intel·lectual
    mesura les regles de governança.
 
 .. alt:: Establir com a propietari de tot el codi font i la documentació l'empresa o entitat proveïdora
-   :tags: Escenari D
+   :tags: NouProducte; Contractar
 
    Fins ara, els contractes amb proveïdors establien que tot el software
    desenvolupat per a l'Ajuntament en el context del contracte, així com la
@@ -55,7 +55,7 @@ Propietat intel·lectual
       temps que s'especifiqui).
 
 .. alt:: Establir com a propietari de tot el codi font una tercera entitat
-   :tags: Escenari D, Escenari E
+   :tags: NouProducte, Publicació; Contractar
 
    Hi ha una tercera opció, si l'objectiu és que la titularitat recaigui
    finalment en una entitat externa encarregada de la gestió i governança del
@@ -76,7 +76,7 @@ Triar una llicència per al codi
 ===============================
 
 .. mes:: Triar la llicència AGPL-3.0 com a llicència de distribució del projecte
-   :tags: Escenari D; Escenari E
+   :tags: NouProducte; Publicació
    :links: A_03890
 
    La llicència `GNU Affero General Public License v3.0
@@ -116,7 +116,7 @@ Triar una llicència per al codi
    validesa legal.
 
 .. alt:: Triar la llicència EUPL-1.2 com a llicència de distribució del projecte
-   :tags: Escenari D; Escenari E
+   :tags: NouProducte; Publicació
 
    La llicència `European Union Public License 1.2
    <https://joinup.ec.europa.eu/page/introduction-eupl-licence>`__ (EUPL-1.2) és
@@ -153,13 +153,19 @@ Triar una llicència per al codi
    un altre projecte amb una llicència a la que estiguin habituats.
 
 .. mes:: Triar una llicència d'ús comú en l'ecosistema o plataforma tecnològica del component a desenvolupar
-   :tags: Escenari B
+   :tags: Adaptació; Contractar
 
-Aplicar una llicència a un projecte
-===================================
+.. mes:: Utilitzar per a tot el codi que modifica un component ja existent la seva llicència original
+   :tags: Plugin; Contractar
+
+   En el cas d'un desenvolupament sota contracte, cal especificar en els plecs
+   aquesta circumstància.
+
+Complir amb les obligacions de les llicències
+=============================================
 
 .. mes:: Escriure una *checklist* amb les obligacions de les llicències usades i fer seguiment del seu compliment
-   :tags: Escenari A; Escenari B; Escenari C; Escenari D; Escenari E
+   :tags: Integració; Adaptació; Plugin; NouProducte; Publicació
 
    Cada llicència atorga drets i obligacions diferents, tant per als usuaris com
    per als desenvolupadors. Cal garantir que es compleix amb les obligacions de
@@ -180,7 +186,7 @@ Aplicar una llicència a un projecte
    <https://joinup.ec.europa.eu/page/guidelines-users-and-developers>`__.
 
 .. mes:: Incloure la notificació de copyright i de llicència a cada fitxer de codi
-   :tags: Escenari B; Escenari C; Escenari D; Escenari E
+   :tags: Adaptació; Plugin; NouProducte; Publicació
 
    La majoria de llicències especifiquen una condició anomenada en anglès "License
    and copyright notice".
@@ -253,14 +259,8 @@ Aplicar una llicència a un projecte
       
       import ...
 
-.. mes:: Utilitzar per a tot el codi que modifica un component ja existent la seva llicència original
-   :tags: Escenari B
-
-   En el cas d'un desenvolupament sota contracte, cal especificar en els plecs
-   aquesta circumstància.
-
 .. mes:: Establir un procediment per garantir la integritat de les contribucions
-   :tags: Escenari C; Escenari D; Escenari E
+   :tags: Plugin; NouProducte; Publicació; Contractar
 
    Això significa que de tot el codi inclòs al repositori es té permís de la
    persona que l'ha escrit (que no sempre es la persona que fa el *commit*) per
@@ -275,7 +275,7 @@ Aplicar una llicència a un projecte
    -  A través directament de la llicència del programari
 
 .. mes:: Obligar a tots el contribuïdors de codi externs a enviar un DCO i signar cada *commit*
-   :tags: Escenari C; Escenari D; Escenari E
+   :tags: Plugin; NouProducte; Publicació
 
    El **Developer's Certificate of Origin (DCO)** és document utilitzat per
    verificar que els desenvolupadors que fan contribucions al projecte coneixen

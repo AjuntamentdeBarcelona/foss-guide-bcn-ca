@@ -59,12 +59,16 @@ needs_types = [
 ]
 
 needs_tags = [
-    dict(name="Escenari A", description="escenari A"),
-    dict(name="Escenari B", description="escenari B"),
-    dict(name="Escenari C", description="escenari C"),
-    dict(name="Escenari D", description="escenari D"),
-    dict(name="Escenari E", description="escenari E"),
-    dict(name="Escenari F", description="escenari F"),
+    dict(name="Integració", description="Integrar components existents"),
+    dict(name="Adaptació", description="Modificar un component extern"),
+    dict(name="Plugin", description="Estendre una plataforma amb components endollables"),
+    dict(name="NouProducte", description="Crear un component nou"),
+    dict(name="Publicació", description="Publicar codi d'un component propi ja existent"),
+    dict(name="Document", description="Publicar documentació no vinculada a un únic projecte"),
+    dict(name="Avantprojecte", description="Avantprojecte"),
+    dict(name="Contractar", description="Contractar"),
+    dict(name="Dia1", description="Dia 1"),
+    dict(name="Release", description="Release"),
 ]
 
 # Add any paths that contain templates here, relative to this directory.
