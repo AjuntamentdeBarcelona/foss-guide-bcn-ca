@@ -21,6 +21,9 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+# We need 'Markup' objects to write HTML-formatted text in Jinja template
+# variables (See variable 'copyright').
+from jinja2 import Markup
 
 # -- General configuration ------------------------------------------------
 
@@ -78,7 +81,12 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Guia per gestionar projectes de Programari Lliure'
-copyright = '2018, Ajuntament de Barcelona'
+copyright = Markup("""
+    2018 Ajuntament de Barcelona.
+    <br/>
+    Aquest document es distribueix sota llicència
+    <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC-BY-SA-4.0</a>
+""")
 author = 'Ajuntament de Barcelona'
 
 # The version info for the project you're documenting, acts as replacement for
