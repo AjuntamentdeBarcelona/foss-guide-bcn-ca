@@ -1,8 +1,8 @@
 FOSS Guide, Barcelona’s City Hall
 =================================
 
-*README in other languages: `Català (conté detalls de com contribuir)
-<README.ca.rst>`__.*
+*README in other languages:* `Català (conté detalls de com contribuir)
+<README.ca.rst>`_.
 
 The FOSS Guide of the **Ajuntament de Barcelona** (Barcelona’s City Hall) is a
 document intended for internal use. It contains guidelines and recommendations
@@ -11,8 +11,8 @@ covers, among others, how to search and design solutions, contract services,
 develop and deploy information systems, and participate in open communities.
 
 The Guide develops and makes more precise the principles about using FOSS
-established in `the local regulation about Open Digitization (*Mesura de govern
-per a la digitalització oberta*)
+established in `the local regulation about Open Digitization (Mesura de govern
+per a la digitalització oberta)
 <http://ajuntament.barcelona.cat/digital/en/documentation>`__, October 2017,
 transferring FOSS best practices to the City Hall.
 

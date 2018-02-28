@@ -1,7 +1,7 @@
 Guia per gestionar projectes de programari lliure
 =================================================
 
-*Read a simplified README in other languages: `English <README.rst>`__.*
+*Read a simplified README in other languages:* `English <README.rst>`_.
 
 La *Guia per gestionar projectes de programari lliure* de l’**Ajuntament de
 Barcelona** és un document d’ús intern amb directrius i recomanacions a aplicar
