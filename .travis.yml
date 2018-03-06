@@ -7,13 +7,16 @@
 # A hidden variable $GITHUB_TOKEN also needs to be defined in Travis CI
 # Repository Settings, containing an API token generated in GitHub.
 
+env:
+  global:
+    # Generate sphinx docs for branch master and all version tags numbered X.Y
+    - VERSIONED_COMMITS="-w master -W '[0-9]+\.[0-9]+'"
 language: python
 python:
   - 3.5
 script:
   - mkdir -p build/html && touch build/html/.nojekyll
-after_success:                          # Document is built here
-  - sphinx-versioning build --show-banner -w master -W "[0-9]+\.[0-9]+" source build/html/ca
+  - sphinx-versioning build --show-banner $VERSIONED_COMMITS source build/html/ca
 deploy:
   - provider: pages
     on:
