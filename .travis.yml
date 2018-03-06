@@ -17,6 +17,7 @@ python:
 script:
   - mkdir -p build/html && touch build/html/.nojekyll
   - sphinx-versioning build --show-banner $VERSIONED_COMMITS source build/html/ca
+  - cp source/_static/language_selection_page.html build/html/index.html
 deploy:
   - provider: pages
     on:
