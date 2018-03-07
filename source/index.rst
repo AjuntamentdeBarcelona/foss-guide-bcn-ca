@@ -14,6 +14,7 @@ Guia per gestionar projectes de Programari Lliure
    Introduccio
    Organitzacio
    DesenvolupamentEnObert
+   InfraestructuraTecnica
    AspectesLegals
    LlistatsDeMesures
 
