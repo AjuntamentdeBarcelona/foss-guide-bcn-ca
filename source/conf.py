@@ -54,7 +54,7 @@ needs_types = [
     dict(directive="mes", title="Mesura", prefix="M_", color="#BFD8D2", style="node"),
     dict(directive="rec", title="Recomanació", prefix="R_", color="#DF744A", style="node"),
     dict(directive="alt", title="Alternativa", prefix="A_", color="#FEDCD2", style="node"),
-    # dict(directive="test", title="Test Case", prefix="T_", color="#DCB239", style="node"),
+    dict(directive="sub", title="Submesura", prefix="S_", color="#DCB239", style="node"),
     # dict(directive="need", title="Need", prefix="N_", color="#9856a5", style="node"),
 ]
 
