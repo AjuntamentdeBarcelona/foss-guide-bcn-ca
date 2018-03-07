@@ -16,6 +16,7 @@ Guia per gestionar projectes de Programari Lliure
    DesenvolupamentEnObert
    InfraestructuraTecnica
    Components
+   ComunitatsObertes
    AspectesLegals
    LlistatsDeMesures
 
