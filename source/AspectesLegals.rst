@@ -6,7 +6,7 @@ Propietat intel·lectual
 =======================
 
 .. mes:: Establir com a propietari de tot el codi font i la documentació l'Ajuntament de Barcelona
-   :tags: NouProducte; Publicació; Contractar
+   :tags: Contractar; NouProducte; Publicació
    :links: A_011; A_D39
 
    En el cas de projectes nous el que s'ha de valorar és quina entitat garanteix
@@ -34,7 +34,7 @@ Propietat intel·lectual
    mesura les regles de governança.
 
 .. alt:: Establir com a propietari de tot el codi font i la documentació l'empresa o entitat proveïdora
-   :tags: NouProducte; Contractar
+   :tags: Contractar; NouProducte
 
    Fins ara, els contractes amb proveïdors establien que tot el software
    desenvolupat per a l'Ajuntament en el context del contracte, així com la
@@ -55,7 +55,7 @@ Propietat intel·lectual
       temps que s'especifiqui).
 
 .. alt:: Establir com a propietari de tot el codi font una tercera entitat
-   :tags: NouProducte, Publicació; Contractar
+   :tags: Contractar; NouProducte, Publicació
 
    Hi ha una tercera opció, si l'objectiu és que la titularitat recaigui
    finalment en una entitat externa encarregada de la gestió i governança del
@@ -153,10 +153,10 @@ Triar una llicència per al codi
    un altre projecte amb una llicència a la que estiguin habituats.
 
 .. mes:: Triar una llicència d'ús comú en l'ecosistema o plataforma tecnològica del component a desenvolupar
-   :tags: Adaptació; Contractar
+   :tags: Contractar; Adaptació
 
 .. mes:: Utilitzar per a tot el codi que modifica un component ja existent la seva llicència original
-   :tags: Plugin; Contractar
+   :tags: Contractar; Plugin
 
    En el cas d'un desenvolupament sota contracte, cal especificar en els plecs
    aquesta circumstància.
@@ -260,7 +260,7 @@ Complir amb les obligacions de les llicències
       import ...
 
 .. mes:: Establir un procediment per garantir la integritat de les contribucions
-   :tags: Plugin; NouProducte; Publicació; Contractar
+   :tags: Contractar; Plugin; NouProducte; Publicació
 
    Això significa que de tot el codi inclòs al repositori es té permís de la
    persona que l'ha escrit (que no sempre es la persona que fa el *commit*) per
