@@ -7,7 +7,7 @@ Propietat intel·lectual
 
 .. mes:: Establir com a propietari de tot el codi font i la documentació l'Ajuntament de Barcelona
    :tags: NouProducte; Publicació; Contractar
-   :links: A_0117F; A_D3943
+   :links: A_011; A_D39
 
    En el cas de projectes nous el que s'ha de valorar és quina entitat garanteix
    millor que es prendran en cada moment les mesures adequades per difondre el
@@ -77,7 +77,7 @@ Triar una llicència per al codi
 
 .. mes:: Triar la llicència AGPL-3.0 com a llicència de distribució del projecte
    :tags: NouProducte; Publicació
-   :links: A_03890
+   :links: A_038
 
    La llicència `GNU Affero General Public License v3.0
    <https://www.gnu.org/licenses/why-affero-gpl.html>`__ (AGPL-3.0) té totes les

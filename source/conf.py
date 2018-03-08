@@ -50,6 +50,8 @@ extlinks = {
     'prodoss': ('https://producingoss.com/%s', ''),
 }
 
+needs_id_length = 3
+
 needs_types = [
     dict(directive="mes", title="Mesura", prefix="M_", color="#BFD8D2", style="node"),
     dict(directive="rec", title="Recomanació", prefix="R_", color="#DF744A", style="node"),
