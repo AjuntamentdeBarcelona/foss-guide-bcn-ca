@@ -280,12 +280,3 @@ Complir amb les obligacions de les llicències
    El **Developer's Certificate of Origin (DCO)** és document utilitzat per
    verificar que els desenvolupadors que fan contribucions al projecte coneixen
    i accepten la seva llicència.
-
-.. mes:: Preparar materials per explicar la base legal dels contractes i les decisions preses
-
-   Les llicències lliures, i en general el desenvolupament de codi obert, no
-   forma part del currículum estàndard dels advocats. Si els diferents equips
-   legals –de l'Ajuntament, dels adjudicataris– i persones que han de prendre
-   decisions amb implicacions jurídica requereixen explicacions que fonamentin
-   algunes decisions, convé tenir preparat un document amb informació bàsica i
-   enllaços al documents que puguin resoldre els seus dubtes.
