@@ -9,7 +9,7 @@ El concepte de contribució va més enllà del codi. També pot consistir en:
 
 - Traduccions
 - Documentació
-- Bug reports
+- Notificació de deficiències (*Bug reports*)
 
 .. mes:: Fer que l'autoria de cada contribució (codi, documentació o missatge) sigui individual
    :tags: Adaptació; Plugin; NouProducte
@@ -105,16 +105,6 @@ El concepte de contribució va més enllà del codi. També pot consistir en:
    definició de requeriments (*roadmap*), son aspectes diferents. Es promourà la
    diversitat de contribucions però l'IMI mantindrà el control efectiu dels
    desenvolupaments finançats per fons públics.
-   
-.. rec:: Cedir el codi a (i possiblement crear) una entitat independent sense ànim de lucre
-   :tags: Plugin; NouProducte; Publicació
-   
-   En casos de projectes de gran abast on la complexitat del sistema generat o
-   la sostenibilitat del projecte requereixin d'una entitat única responsable de
-   poder gestionar de manera centralitzada, s'intentarà crear una entitat
-   independent sense ànim de lucre, que podrà a més gestionar d'altres projectes
-   independents sense ànim de lucre així com altres projectes alliberats per
-   l'Ajuntament o altres entitats associades de l'àmbit públic.
    
 Contribuir a projectes ja existents
 ===================================

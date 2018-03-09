@@ -5,9 +5,9 @@ Aspectes legals
 Propietat intel·lectual
 =======================
 
-.. mes:: Establir com a propietari de tot el codi font i la documentació l'Ajuntament de Barcelona
-   :tags: Contractar; NouProducte; Publicació
-   :links: A_011; A_D39
+.. mes:: Establir l'Ajuntament de Barcelona com a propietari de tot el codi font i la documentació
+   :tags: Contractar; Adaptació; Plugin; NouProducte; Publicació
+   :links: A_C87; A_EE9; A_3B6
 
    En el cas de projectes nous el que s'ha de valorar és quina entitat garanteix
    millor que es prendran en cada moment les mesures adequades per difondre el
@@ -33,8 +33,32 @@ Propietat intel·lectual
    administracions públiques, i sobre els quals pretengui determinar en gran
    mesura les regles de governança.
 
-.. alt:: Establir com a propietari de tot el codi font i la documentació l'empresa o entitat proveïdora
-   :tags: Contractar; NouProducte
+.. alt:: Cedir la propietat del nou codi font al propietari legal del codi original
+   :tags: Contractar; Adaptació
+
+   Quan adaptem un producte ja existent, pot ser que per acceptar la inclusió
+   del nostre codi al producte original ens demanin signar una CLA o contracte
+   equivalent.
+
+.. alt:: Cedir la propietat del codi font a una entitat independent sense ànim de lucre
+   :tags: Contractar; Plugin; NouProducte; Publicació
+
+   Hi ha una tercera opció, si l'objectiu és que la titularitat recaigui
+   finalment en una entitat externa encarregada de la gestió i governança del
+   projecte a llarg termini. Per la naturalesa de la funció a realitzar, aquesta
+   entitat tindrà normalment forma legal de fundació. Això té sentit en
+   projectes on, a més de l'Ajuntament, hi participin financerament i en la
+   presa de decisions d'altres entitats públiques, privades o del tercer sector.
+   En aquest cas cal establir per contracte una cessió de drets, que pot ser
+   directament a la fundació corresponent, o bé en primer terme a l'Ajuntament,
+   que és qui fa el contracte, per tal que sigui aquest qui cedeixi els drets a
+   la fundació en un moment posterior.
+
+   Aquesta entitat pot gestionar altres projectes alliberats per l'Ajuntament o
+   d'altres entitats associades de l'àmbit públic.
+
+.. alt:: Establir l'empresa o entitat proveïdora com a propietària de tot el codi font i la documentació
+   :tags: Contractar; Plugin; NouProducte
 
    Fins ara, els contractes amb proveïdors establien que tot el software
    desenvolupat per a l'Ajuntament en el context del contracte, així com la
@@ -53,24 +77,6 @@ Propietat intel·lectual
       manera apropiada sota una determinada llicència de programari lliure (i
       potser de participar en el manteniment del programari durant el període de
       temps que s'especifiqui).
-
-.. alt:: Establir com a propietari de tot el codi font una tercera entitat
-   :tags: Contractar; NouProducte, Publicació
-
-   Hi ha una tercera opció, si l'objectiu és que la titularitat recaigui
-   finalment en una entitat externa encarregada de la gestió i governança del
-   projecte a llarg termini. Per la naturalesa de la funció a realitzar, aquesta
-   entitat tindrà normalment forma legal de fundació. Això té sentit en
-   projectes on, a més de l'Ajuntament, hi participin financerament i en la
-   presa de decisions d'altres entitats públiques, privades o del tercer sector.
-   En aquest cas cal establir per contracte una cessió de drets, que pot ser
-   directament a la fundació corresponent, o bé en primer terme a l'Ajuntament,
-   que és qui fa el contracte, per tal que sigui aquest qui cedeixi els drets a
-   la fundació en un moment posterior.
-   
-   Això pot ser necessari en cas que estiguem en l'escenari B i per a integrar
-   el codi al producte original ens demanin signar una CLA o contracte
-   equivalent.
 
 Triar una llicència per al codi
 ===============================
@@ -153,10 +159,10 @@ Triar una llicència per al codi
    un altre projecte amb una llicència a la que estiguin habituats.
 
 .. mes:: Triar una llicència d'ús comú en l'ecosistema o plataforma tecnològica del component a desenvolupar
-   :tags: Contractar; Adaptació
+   :tags: Contractar; Plugin
 
 .. mes:: Utilitzar per a tot el codi que modifica un component ja existent la seva llicència original
-   :tags: Contractar; Plugin
+   :tags: Contractar; Adaptació
 
    En el cas d'un desenvolupament sota contracte, cal especificar en els plecs
    aquesta circumstància.
@@ -164,7 +170,7 @@ Triar una llicència per al codi
 Complir amb les obligacions de les llicències
 =============================================
 
-.. mes:: Escriure una *checklist* amb les obligacions de les llicències usades i fer seguiment del seu compliment
+.. mes:: Escriure una checklist amb les obligacions de les llicències usades i fer seguiment del seu compliment
    :tags: Integració; Adaptació; Plugin; NouProducte; Publicació
 
    Cada llicència atorga drets i obligacions diferents, tant per als usuaris com
