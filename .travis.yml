@@ -20,6 +20,8 @@ script:
   - cp source/_static/language_selection_page.html build/html/index.html
 deploy:
   - provider: pages
+    edge:
+      branch: v1.8.47
     on:
       branch: master
     skip-cleanup: true                  # Keep files generated during the build
@@ -29,6 +31,8 @@ deploy:
     local-dir: build/html
     keep-history: false                 # Overwrite 'target-branch' in every push
   - provider: pages
+    edge:
+      branch: v1.8.47
     on:
       branch: develop
     skip-cleanup: true                  # Keep files generated during the build
