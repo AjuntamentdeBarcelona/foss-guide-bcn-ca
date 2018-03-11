@@ -2,6 +2,25 @@
 Documentació
 ************
 
+.. mes:: Pujar un fitxer ``README`` al repositori principal
+   :tags: Dia1; Plugin; NouProducte; Publicació
+   
+   Ha d'incloure la declaració de propòsit i la resta d'informacions que al
+   llarg d'aquest document es menciona que s'han d'incloure en el
+   ``README``.
+   
+   S'ha de redactar en anglès i el format ha de ser text amb algun
+   llenguatge de marques lleuger. Pot no tenir extensió si conté només text
+   pla o una extensió que indiqui amb quin format de marques s'ha
+   d'interpretar (és a dir, en realitat es el fitxer tindrà nom
+   ``README.md`` si està escrit en Markdown).
+   
+   El contingut d'aquest fitxer (concretament la versió que hi hagi penjada
+   a la branca ``master``), formatat segons les convencions del llenguatge
+   de marques que s'hagi utilitzat, és el que GitHub mostra com a portada
+   de la web de desenvolupament. Per tant, convé comprovar que el format és
+   correcte i que es visualitza bé en un navegador web.
+   
 .. mes:: Utilitzar, per a tota la documentació del projecte, formats de wiki o formats de marques oberts
    :tags: Integració; Plugin; NouProducte; Publicació
 

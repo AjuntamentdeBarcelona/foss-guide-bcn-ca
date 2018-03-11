@@ -191,6 +191,24 @@ Complir amb les obligacions de les llicències
    developers
    <https://joinup.ec.europa.eu/page/guidelines-users-and-developers>`__.
 
+.. mes:: Pujar el text de la llicència al repositori principal
+   :tags: Dia1; Plugin; NouProducte; Publicació
+   
+   La llicència anirà en text pla en un fitxer anomenat ``LICENSE`` (sense
+   extensió), al directori arrel del repositori.
+   
+   El text de les dues llicències recomanades (que cal copiar de forma
+   literal) el podem trobar a:
+   
+   -  https://www.gnu.org/licenses/agpl.txt
+   -  https://joinup.ec.europa.eu/sites/default/files/inline-files/EUPL%20v1_2%20EN(1).txt
+   
+   El fitxer ``LICENSE`` ha d'estar en anglès. En el cas d'utilitzar la
+   llicència EUPL-1.2, que té traduccions oficials, podem opcionalment
+   incloure fitxers ``LICENSE.ca.txt`` i ``LICENSE.es.txt``. Les diferents
+   traduccions es troben a
+   https://joinup.ec.europa.eu/page/eupl-text-11-12.
+   
 .. mes:: Incloure la notificació de copyright i de llicència a cada fitxer de codi
    :tags: Adaptació; Plugin; NouProducte; Publicació
 

@@ -2,8 +2,8 @@
 Comunitats obertes
 ******************
 
-Contribuir en comunitats obertes
-================================
+Gestió i governança de comunitats obertes
+=========================================
 
 El concepte de contribució va més enllà del codi. També pot consistir en:
 
@@ -69,6 +69,39 @@ El concepte de contribució va més enllà del codi. També pot consistir en:
       funcionalitat no prevista en el contracte per part de l’adjudicatari, per
       exemple aquelles que solucionen bugs.
    
+.. mes:: Publicar unes breus Directrius per desenvolupadors (Developer Guidelines)
+   :tags: Dia1; Plugin; NouProducte; Publicació
+   
+   Aquesta guia estableix les convencions tècniques i socials que determinen les
+   interaccions entre desenvolupadors, i entre desenvolupadors i usuaris. És
+   d'aplicació per tots els desenvolupadors, tant els contractats per
+   l'Ajuntament, com els externs, com el personal del mateix Ajuntament.
+   
+   S'ha de redactar en anglès i ha de ser, o bé una pàgina de la pròpia
+   wiki de GitHub, o bé un fitxer de text amb llenguatge de marques
+   lleuger.
+   
+   La guia pot créixer amb al temps, però a l'inici només cal deixar clares
+   tres coses:
+   
+   #. Quins son els canals de comunicació de que disposa el projecte i per
+      a què s'utilitza cadascun.
+   #. Instruccions de com reportar defectes (*bugs*) i de com fer
+      contribucions al projecte.
+   #. Una descripció breu de com és la governança del projecte: qui i com
+      pren les decisions. En molts casos només caldrà dir que durant la
+      duració del contracte en vigor l'Ajuntament és qui prioritza les
+      funcionalitats a desenvolupar, els defectes a arreglar. També té la
+      última paraula sobre les solucions tècniques a adoptar, les
+      contribucions a integrar i les versions a publicar. Es pot dir que en
+      un futur s'estudiarà un model de governança adequat a l'evolució de
+      les circumstàncies del projecte.
+   
+   Aquestes Directrius per desenvolupadors han d'estar enllaçades com a
+   mínim des de:
+   
+   -  El fitxer ``README`` del repositori principal.
+
 .. rec:: Publicar unes Directrius per desenvolupadors (Developer Guidelines) detallades (si el projecte creix)
    :tags: Plugin; NouProducte; Publicació
    
