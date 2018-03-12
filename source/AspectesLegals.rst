@@ -158,14 +158,32 @@ Triar una llicència per al codi
    similars a les de l'AGPL-3.0. En el pitjor escenari, preferiran contribuir a
    un altre projecte amb una llicència a la que estiguin habituats.
 
-.. mes:: Triar una llicència d'ús comú en l'ecosistema o plataforma tecnològica del component a desenvolupar
-   :tags: Contractar; Plugin
-
 .. mes:: Utilitzar per a tot el codi que modifica un component ja existent la seva llicència original
    :tags: Contractar; Adaptació
 
+   Quan modifiquem un component, i per tal que les nostres modificacions puguin
+   potencialment incorporar-se al producte original, cal respectar la llicència
+   que ens ve donada, malgrat en el cas de llicències permissives podríem
+   modificar-la.
+
    En el cas d'un desenvolupament sota contracte, cal especificar en els plecs
    aquesta circumstància.
+
+   Si hem respectat la :ref:`mesura S_58B <mesura_S_58B>`, el component que
+   estem modificant tindrà una llicència lliure.
+
+.. mes:: Triar una llicència d'ús comú en l'ecosistema o plataforma tecnològica del component a desenvolupar
+   :tags: Contractar; Plugin
+
+   Si hem de construir una extensió endollable a una plataforma existent (el
+   *core* de la qual, per la :ref:`mesura S_58B <mesura_S_58B>`, ha de ser
+   lliure), tenim un cert marge per triar la llicència. Convé triar una
+   llicència entre les més utilitzades dins del *framework* o plataforma en
+   qüestió, per tal de facilitar l'acceptació del nou component per part de la
+   comunitat. Ens interessa que més gent utilitzi i contribueixi a mantenir el
+   nostre component. Si entre aquestes llicències més populars es troben la AGPL
+   o la EUPL, les triarem.
+
 
 Complir amb les obligacions de les llicències
 =============================================

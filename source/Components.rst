@@ -57,7 +57,7 @@ poden ser extraordinaris, tant a curt com a llarg termini:
       
 .. mes:: Omplir una graella comparativa dels diferents components a avaluar per cobrir una necessitat
    :tags: Avantprojecte; Integració; Adaptació; Plugin; NouProducte
-   :links: S_453; S_223; S_5BD; S_160; S_0F3; S_1C4; S_24A; S_2F1
+   :links: S_58B, S_453; S_223; S_5BD; S_160; S_0F3; S_1C4; S_24A; S_2F1
 
    Això pot haver-se de repetir per cadascun dels components d'un sistema.
 
@@ -125,6 +125,17 @@ poden ser extraordinaris, tant a curt com a llarg termini:
    - Existència d'una comunitat informal o xarxa de suport local i global
    - Solucions innovadores (i valor que això aporta)
    - Impacte sobre la privacitat i la sobirania de dades
+
+.. _mesura_S_58B:
+
+.. sub:: Triar components amb una llicència aprovada per la OSI o per la FSF
+   :id: S_58B
+   :tags: Integració; Adaptació; Plugin
+
+   Els dos conjunts de llicències vàlides son gairebé idèntics:
+
+   - `<https://opensource.org/licenses>`_
+   - `<https://www.gnu.org/licenses/license-list.en.html>`_
 
 .. sub:: Afavorir components amb una major diversitat i pes dels contribuïdors
    :tags: Avantprojecte; Integració; Adaptació; Plugin; NouProducte
@@ -223,6 +234,17 @@ poden ser extraordinaris, tant a curt com a llarg termini:
      modificacions que es pretén fer, i de les possibilitats que siguin
      integrades al producte original.
    
+.. sub:: Afavorir components amb una llicència compatible amb la GPL
+   :tags: Integració; Adaptació; Plugin
+
+   Aquesta informació la dona la Free Software Foundation al seu llistat de
+   llicències: `<https://www.gnu.org/licenses/license-list.en.html>`_.
+
+   Les llicències de la família de la GPL son unes de les més comunes. Per
+   evitar conflictes de llicència amb altres components que possiblement
+   necessitarem, convé que tots els nostres components siguin compatibles amb
+   GPL.
+
 .. sub:: Afavorir components que formin part de la distribució estable de Debian
    :tags: Avantprojecte; Integració; Adaptació; Plugin; NouProducte
    
@@ -322,7 +344,7 @@ Gestió de dependències
 .. rec:: Finançar una auditoria de seguretat del component a utilitzar
    :tags: Integració; Adaptació; Plugin
    
-.. rec:: Finançar trobades i *hackatons* relacionades amb el component a utilitzar
+.. rec:: Finançar trobades i hackatons relacionades amb el component a utilitzar
    :tags: Integració; Adaptació; Plugin
    
 .. rec:: Integrar personal de l'IMI en les tasques de desenvolupament
