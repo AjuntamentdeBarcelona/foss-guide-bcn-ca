@@ -2,14 +2,66 @@
 Comunitats obertes
 ******************
 
-Gestió i governança de comunitats obertes
-=========================================
+En un projecte de codi obert hi ha molts nivells de participació, i convé no
+tancar-se a cap d'ells. A més del l'equip principal de desenvolupament,
+normalment persones contractades per a tal fi, pot haver-hi col·laboracions
+puntuals o continuades per part d'altres persones. Aquest capítol es centra en
+els aspectes més socials de com treballar en el tipus de comunitat que es crea
+al voltant d'aquests projectes.
 
+Contribuir en comunitats obertes
+================================
+   
 El concepte de contribució va més enllà del codi. També pot consistir en:
 
 - Traduccions
 - Documentació
 - Notificació de deficiències (*Bug reports*)
+- Altres
+
+Una norma bàsica és que les contribucions son sempre individuals, tant en els
+nostres projectes com quan contribuïm a projectes externs. Això vol dir que es
+pot traçar sempre quina persona concreta l'ha realitzat, encara que treballi o
+participi en nom d'alguna organització. Les raons d'això son que:
+
+- És l'única entitat per la que els projectes de codi obert estan
+  estructuralment equipats per gestionar.
+- Dins dels projectes de codi obert la reputació és com la moneda que fa
+  funcionar tota la maquinària, i aquesta es guanya o es perd de forma
+  individual. Segons la solidesa demostrada en contribucions anteriors es
+  confiarà més o menys en el codi que ha fet algú, les seves opinions als canals
+  de comunicació i presa de decisions tindran més o menys pes, etc.
+- Els desenvolupadors que treballen habitualment en projectes de codi obert
+  estan acostumats a aquest model. Fa més senzilles les interaccions quan es
+  col·labora a distància. També és d'interès per ells per construir-se una
+  carrera professional.
+
+L'altra consideració important en aquest apartat, aplicable si volem modificar
+un component extern ja existent, és que sempre és molt convenient que les
+nostres modificacions al codi quedin incorporades, tard o d'hora, al producte
+original. Amb això aconseguim:
+
+- Reduir el cost futur de manteniment. Si la integració és total, pot ser fins i
+  tot que el manteniment de les funcionalitats integrades ens surti a cost 0.
+- Beneficiar-nos de futures millores del producte original aportades per altres
+  parts.
+- Si més gent utilitza la nostra funcionalitat, l'Ajuntament apareixerà com una
+  institució que aporta al projecte i al comú global de les comunitats de
+  programari lliure. Això a la llarga li pot donar capacitat prestigi i
+  influència.
+
+Tenir en compte, però, que podem planificar per facilitar aquesta integració,
+però normalment no podrem garantir que es produeixi en les etapes inicials d'un
+projecte. Cada comunitat té les seves regles de governança i presa de decisions,
+i s'han de respectar. Però el que sí convé fer és informar en tot moment dels
+nostres plants i intentar que convergeixin amb els de la comunitat a la que ens
+adrecem. Com diu a
+`<http://producingoss.com/en/contracting.html#community-review-acceptance>`_:
+
+   "No pensis en l'escrutini de la comunitat com un obstacle a salvar, pensa
+   en ell com un equip de disseny i un departament de qualitat a cost zero.
+   [L'escrutini i participació de la comunitat] És un benefici a buscar
+   agressivament, no un obstacle a suportar".
 
 .. mes:: Fer que l'autoria de cada contribució (codi, documentació o missatge) sigui individual
    :tags: Adaptació; Plugin; NouProducte
@@ -20,14 +72,6 @@ El concepte de contribució va més enllà del codi. També pot consistir en:
    eines de gestió, utilitzar noms d'usuari i adreces de correu individuals de
    cada persona participant.
    
-   La raó d'això és que els individus son l'únic tipus d'entitat que els
-   projectes de codi obert estan preparats per gestionar. Funcionen en gran
-   mesura sota criteris meritocràtics, i son les persones, i no les empreses o
-   administracions públiques, les que fan contribucions, participen en
-   discussions, adquireixen credibilitat, voten, etc. La credibilitat adquirida
-   pels individus també pot afectar a les seves futures oportunitats
-   professionals.
-   
    Si un mateix individu contribueix a un projecte de programari a vegades com a
    treballador contractat directament o indirecta per l'Ajuntament, i d'altres
    vegades com a voluntari en el seu temps lliure, aleshores ha d'utilitzar dues
@@ -36,112 +80,7 @@ El concepte de contribució va més enllà del codi. També pot consistir en:
    - Una de personal quan faci contribucions voluntàries.
    - Una de l'empresa, o bé una proporcionada per l'Ajuntament, quan compleixi
      amb tasques especificades al seu contracte.
-   
-.. mes:: Donar reconeixement a les persones que fan contribucions al projecte
-   :tags: Plugin; NouProducte
-   
-   En un fitxer ``CONTRIBUTORS`` a l'arrel del repositori. A nivell
-   individual.
-   
-.. rec:: Pressupostar el sobrecost d'incentivar la creació d'una comunitat oberta
-   :tags: NouProducte
-   
-   Això inclou coses com que els desenvolupadors dediquin temps a:
-   
-   - Revisar codi de tercers
-   - Respondre missatges als canals de comunicació del projecte
-   - Intervenir a StackOverflow
-   
-.. mes:: Redactar i actualitzar un document intern establint el grau de compromís que volem tenir amb cada part
-   :tags: NouProducte
-   
-   Prestar especial atenció als possibles *early adopters*.
-   
-.. rec:: Establir per contracte que l'adjudicatari ha d'incloure contribucions externes si ho decideix l'Ajuntament
-   :tags: Contractar; Plugin; NouProducte
-   
-   .. admonition:: Exemple de clàusula: **Contribucions externes**.
-   
-      Durant la duració del contracte, incloent el període de garantia,
-      l’adjudicatari té l’obligació d’integrar aquelles contribucions externes
-      que l’Ajuntament de Barcelona consideri que milloren el codi o la
-      documentació pública i que no impliquen el desenvolupament de
-      funcionalitat no prevista en el contracte per part de l’adjudicatari, per
-      exemple aquelles que solucionen bugs.
-   
-.. mes:: Publicar unes breus Directrius per desenvolupadors (Developer Guidelines)
-   :tags: Dia1; Plugin; NouProducte; Publicació
-   
-   Aquesta guia estableix les convencions tècniques i socials que determinen les
-   interaccions entre desenvolupadors, i entre desenvolupadors i usuaris. És
-   d'aplicació per tots els desenvolupadors, tant els contractats per
-   l'Ajuntament, com els externs, com el personal del mateix Ajuntament.
-   
-   S'ha de redactar en anglès i ha de ser, o bé una pàgina de la pròpia
-   wiki de GitHub, o bé un fitxer de text amb llenguatge de marques
-   lleuger.
-   
-   La guia pot créixer amb al temps, però a l'inici només cal deixar clares
-   tres coses:
-   
-   #. Quins son els canals de comunicació de que disposa el projecte i per
-      a què s'utilitza cadascun.
-   #. Instruccions de com reportar defectes (*bugs*) i de com fer
-      contribucions al projecte.
-   #. Una descripció breu de com és la governança del projecte: qui i com
-      pren les decisions. En molts casos només caldrà dir que durant la
-      duració del contracte en vigor l'Ajuntament és qui prioritza les
-      funcionalitats a desenvolupar, els defectes a arreglar. També té la
-      última paraula sobre les solucions tècniques a adoptar, les
-      contribucions a integrar i les versions a publicar. Es pot dir que en
-      un futur s'estudiarà un model de governança adequat a l'evolució de
-      les circumstàncies del projecte.
-   
-   Aquestes Directrius per desenvolupadors han d'estar enllaçades com a
-   mínim des de:
-   
-   -  El fitxer ``README`` del repositori principal.
 
-.. rec:: Publicar unes Directrius per desenvolupadors (Developer Guidelines) detallades (si el projecte creix)
-   :tags: Plugin; NouProducte; Publicació
-   
-   Per projectes grans, i sense que sigui la primera mesura a prendre, pot ser
-   interessant treballar i publicar unes Directrius per desenvolupadors més
-   extenses i detallades que el que es proposa a la `Mesura: (Dia 1) Publicar
-   unes breus Directrius per desenvolupadors (*Developer Guidelines*)
-   <#publicar-breus-directrius-desenvolupadors>`__.
-   
-   Coses que s'hi poden incloure:
-   
-   - Convencions de codificació
-   - Convencions per a la documentació
-   
-   Alguns exemples:
-   
-   - `<http://subversion.apache.org/docs/community-guide/>`_
-   - `<https://wiki.documentfoundation.org/Development>`_
-   
-.. rec:: Redactar un model de governança per la comunitat global que dona suport al producte
-   :tags: NouProducte; Publicació
-   
-   Els projectes que generen sistemes i eines completament FOSS a través d'un
-   servei de desenvolupament promogut i finançat per l'Ajuntament hauran
-   d'incloure un model de governança que inclogui, entre d'altres: una
-   aproximació a la definició de la comunitat (d'altres Ajuntaments,
-   especialistes com geodata [??] o biblioteques, etc.), les eines de suport, la
-   comunicació i el marketing, els processos per la inclusió de contribucions
-   externes, la gestió de la propietat intel·lectual i la sostenibilitat més
-   enllà del projecte.
-   
-   La governança de la comunitat i la gestió tècnica d'aquests projectes,
-   inclosa l'aprovació del codi per a la seva incorporació al projecte i la
-   definició de requeriments (*roadmap*), son aspectes diferents. Es promourà la
-   diversitat de contribucions però l'IMI mantindrà el control efectiu dels
-   desenvolupaments finançats per fons públics.
-   
-Contribuir a projectes ja existents
-===================================
-   
 .. mes:: Informar dels nostres plans a les comunitats tècniques del component a modificar
    :tags: Adaptació
    
@@ -149,7 +88,10 @@ Contribuir a projectes ja existents
    siguem oberts i clars respecte de les nostres motivacions. En ser el
    component de programari lliure, no ens poden negar fer-hi modificacions. No
    obstant això, és molt convenient informar prèviament de les nostres
-   necessitats, i de la nostra planificació tècnica:
+   necessitats, i de la nostra planificació tècnica.
+
+   Cal esforçar-se per tal que la comunitat de suport del component a modificar
+   entengui i s'involucri en la nostra proposta.
    
 .. rec:: Informar dels nostres plans a d'altres comunitats tècniques rellevants
    :tags: Adaptació; Plugin; NouProducte
@@ -159,30 +101,13 @@ Contribuir a projectes ja existents
    d'això, davant de reptes tècnics i projectes que creguin que les poden
    beneficiar.
    
-   Els projectes estudiaran les possibilitats de col·laboració amb les
-   comunitats locals de programari lliure i tecnologies innovadores per promoure
-   la innovació social i tecnològica.
-   
-.. rec:: Intentar que la comunitat de suport del component a modificar entengui i s'involucri en la nostra proposta
-   :tags: Adaptació
-   
-   Com diu a
-   `<http://producingoss.com/en/contracting.html#community-review-acceptance>`_:
-
-      "No pensis en l'escrutini de la comunitat com un obstacle a salvar, pensa
-      en ell com un equip de disseny i un departament de qualitat a cost zero.
-      [L'escrutini i participació de la comunitat] És un benefici a buscar
-      agressivament, no un obstacle a suportar".
-
-   El més aviat possible, escriure una proposta que pugui ser enriquida per la
-   comunitat.
-   
    Els projectes de l'IMI estudiaran les possibilitats de col·laboració amb les
    comunitats locals de programari lliure i tecnologies innovadores per promoure
    la innovació social i tecnològica.
    
 .. mes:: Contractar desenvolupadors reconeguts dins del projecte que es vol modificar
    :tags: Contractar; Adaptació; Plugin
+   :links: A_1F9
    
    Pot ser directament o a través del contracte amb una empresa o cooperativa
    adjudicatària.
@@ -261,6 +186,111 @@ Contribuir a projectes ja existents
    S'ha de demanar màxima transparència en aquests casos i intentar anticipar
    aquestes situacions.
    
+Gestió i governança de comunitats obertes
+=========================================
+
+.. mes:: Donar reconeixement a les persones que fan contribucions al projecte
+   :tags: Plugin; NouProducte
+   
+   En un fitxer ``CONTRIBUTORS`` a l'arrel del repositori. A nivell
+   individual.
+   
+.. rec:: Pressupostar el sobrecost d'incentivar la creació d'una comunitat oberta
+   :tags: NouProducte
+   
+   Això inclou coses com que els desenvolupadors dediquin temps a:
+   
+   - Revisar codi de tercers
+   - Respondre missatges als canals de comunicació del projecte
+   - Intervenir a StackOverflow
+   
+.. mes:: Redactar i actualitzar un document intern establint el grau de compromís que volem tenir amb cada part
+   :tags: NouProducte
+   
+   Prestar especial atenció als possibles *early adopters*.
+   
+.. rec:: Establir per contracte que l'adjudicatari ha d'incloure contribucions externes si ho decideix l'Ajuntament
+   :tags: Contractar; Plugin; NouProducte
+   
+   .. admonition:: Exemple de clàusula: **Contribucions externes**.
+   
+      Durant la duració del contracte, incloent el període de garantia,
+      l’adjudicatari té l’obligació d’integrar aquelles contribucions externes
+      que l’Ajuntament de Barcelona consideri que milloren el codi o la
+      documentació pública i que no impliquen el desenvolupament de
+      funcionalitat no prevista en el contracte per part de l’adjudicatari, per
+      exemple aquelles que solucionen bugs.
+   
+.. mes:: Publicar unes breus Directrius per desenvolupadors (Developer Guidelines)
+   :tags: Dia1; Plugin; NouProducte; Publicació
+   
+   Aquesta guia estableix les convencions tècniques i socials que determinen les
+   interaccions entre desenvolupadors, i entre desenvolupadors i usuaris. És
+   d'aplicació per tots els desenvolupadors, tant els contractats per
+   l'Ajuntament, com els externs, com el personal del mateix Ajuntament.
+   
+   S'ha de redactar en anglès i ha de ser, o bé una pàgina de la pròpia
+   wiki de GitHub, o bé un fitxer de text amb llenguatge de marques
+   lleuger.
+   
+   La guia pot créixer amb al temps, però a l'inici només cal deixar clares
+   tres coses:
+   
+   #. Quins son els canals de comunicació de que disposa el projecte i per
+      a què s'utilitza cadascun.
+   #. Instruccions de com reportar defectes (*bugs*) i de com fer
+      contribucions al projecte.
+   #. Una descripció breu de com és la governança del projecte: qui i com
+      pren les decisions. En molts casos només caldrà dir que durant la
+      duració del contracte en vigor l'Ajuntament és qui prioritza les
+      funcionalitats a desenvolupar, els defectes a arreglar. També té la
+      última paraula sobre les solucions tècniques a adoptar, les
+      contribucions a integrar i les versions a publicar. Es pot dir que en
+      un futur s'estudiarà un model de governança adequat a l'evolució de
+      les circumstàncies del projecte.
+   
+   Aquestes Directrius per desenvolupadors han d'estar enllaçades com a
+   mínim des de:
+   
+   - El fitxer ``README`` del repositori principal.
+
+.. rec:: Publicar unes Directrius per desenvolupadors (Developer Guidelines) detallades (si el projecte creix)
+   :tags: Plugin; NouProducte; Publicació
+   
+   Per projectes grans, i sense que sigui la primera mesura a prendre, pot ser
+   interessant treballar i publicar unes Directrius per desenvolupadors més
+   extenses i detallades que el que es proposa a la `Mesura: (Dia 1) Publicar
+   unes breus Directrius per desenvolupadors (*Developer Guidelines*)
+   <#publicar-breus-directrius-desenvolupadors>`__.
+   
+   Coses que s'hi poden incloure:
+   
+   - Convencions de codificació
+   - Convencions per a la documentació
+   
+   Alguns exemples:
+   
+   - `<http://subversion.apache.org/docs/community-guide/>`_
+   - `<https://wiki.documentfoundation.org/Development>`_
+   
+.. rec:: Redactar un model de governança per la comunitat global que dona suport al producte
+   :tags: NouProducte; Publicació
+   
+   Els projectes que generen sistemes i eines completament FOSS a través d'un
+   servei de desenvolupament promogut i finançat per l'Ajuntament hauran
+   d'incloure un model de governança que inclogui, entre d'altres: una
+   aproximació a la definició de la comunitat (d'altres Ajuntaments,
+   especialistes com geodata [??] o biblioteques, etc.), les eines de suport, la
+   comunicació i el marketing, els processos per la inclusió de contribucions
+   externes, la gestió de la propietat intel·lectual i la sostenibilitat més
+   enllà del projecte.
+   
+   La governança de la comunitat i la gestió tècnica d'aquests projectes,
+   inclosa l'aprovació del codi per a la seva incorporació al projecte i la
+   definició de requeriments (*roadmap*), son aspectes diferents. Es promourà la
+   diversitat de contribucions però l'IMI mantindrà el control efectiu dels
+   desenvolupaments finançats per fons públics.
+
 Ús adequat dels canals de comunicació
 =====================================
    
