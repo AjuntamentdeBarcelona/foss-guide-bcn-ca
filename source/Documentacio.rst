@@ -42,7 +42,8 @@ Documentació
    
 .. mes:: Crear i mantenir un Manual d'ús a la wiki de GitHub del projecte
    :tags: Integració; Plugin; NouProducte; Publicació
-      
+   :links: A_B27
+
    Des de ben aviat hi ha d'haver una documentació accessible via web que
    expliqui com utilitzar el producte a diferents nivells o per a diferents
    rols: usuaris corrents, administradors, etcètera. En el cas de llibreries de
