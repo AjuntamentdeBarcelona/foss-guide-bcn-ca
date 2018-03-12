@@ -117,7 +117,11 @@ Contractació per a desenvolupar en obert
    
 .. mes:: Adjudicar a entitats amb experiència en desenvolupament obert
    :tags: Contractar; Adaptació; Plugin; NouProducte
-   
+   :links: A_37A; A_8D9
+
+   Establir la necessitat d'experiència en codi obert com a condició de
+   solvència tècnica.
+
    Per moltes condicions que es posin al contracte, si l'empresa adjudicatària
    no té experiència participant en projectes de codi obert, el més probable és
    que el producte no acabi sent obert del tot. En la majoria de casos això no
@@ -136,15 +140,22 @@ Contractació per a desenvolupar en obert
    
    Afegir aquest servei a la oficina tècnica del projecte.
    
-.. alt:: Tenir en compte l'experiència en projectes de codi obert que acreditin els concursants en l'adjudicació
+.. alt:: Incloure com a criteri d'adjudicació l'experiència en projectes de codi obert
    :tags: Contractar; Adaptació; Plugin; NouProducte
-   
+
+   Adjudicar un determinat nombre de punts a les empreses que acreditin
+   experiència en projectes on s'ha produït programari lliure treballant en
+   obert.
+      
 .. mes:: Demanar als concursants que acreditin experiència en projectes de codi obert dels participants
    :tags: Contractar; Adaptació; Plugin; NouProducte
    
    Ho han de fer aportant referències a la seva participació individual en
    repositoris i fòrums oberts (StackOverflow, etc.), dels projectes en que
    hagin participat.
+
+   Es pot fer constar aquesta demanda com a criteri de solvència tècnica o com a
+   criteri d'execució.
    
 .. rec:: Partir el projecte en grups de funcionalitat que es puguin licitar en diferents lots
    :tags: Contractar; NouProducte
@@ -162,10 +173,20 @@ Contractació per a desenvolupar en obert
    També ajuda molt a que des de l'inici del desenvolupament s'estableixin
    processos de treball en obert.
 
-.. mes:: Obligar als adjudicataris a parametritzar tot usant fitxers de configuració
-   :tags: Contractar; Adaptació; Plugin; NouProducte
+.. rec:: Reduir els requeriments d'estabilitat financera de les ofertes
+   :tags: Contractar; Integració; Adaptació; Plugin; NouProducte
 
-   No utilitzar *valors màgics* al codi.
+   Es tracta de suavitzar els criteris de solvència financera exigits.
+   L'objectiu és no posar impediments artificials que puguin impedir
+   presentar-se al concurs a empreses i cooperatives petites i mitjanes que
+   compleixin (o fins i tot superin a les grans) en solvència tècnica.
+
+   Com s'explica a la joinup:`Guideline on public procurement of Open Source
+   Software<document/guideline-public-procurement-open-source-software>`, pàgina
+   47, (document encarregat per la Comissió Europea) la major interoperabilitat
+   i independència de proveïdors quan es treballa en codi obert incrementa la
+   sostenibilitat dels projectes sense necessitat d'uns requeriments financers
+   molt elevats.
 
 Difusió del projecte
 ====================
@@ -376,7 +397,14 @@ Difusió del projecte
 Parametrització, configuració i instal·lació
 ============================================
 
-.. mes:: Implementar procediments de build i instal·lació amb eines lliures i d'ús estès
+.. _mesura_M_A69:
+
+.. mes:: Obligar als adjudicataris a parametritzar el producte usant fitxers de configuració
+   :tags: Contractar; Integració; Adaptació; Plugin; NouProducte; Publicació
+
+   No utilitzar *valors màgics* al codi.
+
+.. mes:: Implementar i documentar procediments de build i instal·lació amb eines lliures i d'ús estès
    :tags: Dia1; Plugin; NouProducte; Publicació
    
    És molt important no esperar gens a construir i documentar un sistema de
@@ -394,8 +422,8 @@ Parametrització, configuració i instal·lació
    
    - Per a projectes Java: Maven, Ant (també serveix per altres llenguatges).
    - Per a projectes Python recomanem seguir els consell de
-     http://python-packaging.readthedocs.io/en/latest/index.html, que inclouen
-     també informació sobre empaquetament.
+     `<http://python-packaging.readthedocs.io/en/latest/index.html>`_, que
+     inclouen també informació sobre empaquetament.
    - Per a projectes JavaScript (i per *front-end* en general): Gulp.js.
    - Per a projectes Ruby: Rake.
    - Ús general: CMake, Nix.

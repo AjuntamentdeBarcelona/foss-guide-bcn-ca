@@ -254,7 +254,7 @@ inicialment pensat per distribuir lliurement.
 Por haver-hi diferents raons que justifiquin la publicació d'un codi, sempre que
 compleixi amb certs requisits de qualitat. Una possible situació és que es
 vulgui iniciar un nou contracte de desenvolupament per estendre o adaptar
-":ref:`en obert <Desenvolupament en obert>`" un component ja existent (això
+":ref:`en obert <desenvolupament-en-obert>`" un component ja existent (això
 equivaldria a una combinació del l':ref:`escenari Adaptació` i l':ref:`escenari
 Publicació`).
 

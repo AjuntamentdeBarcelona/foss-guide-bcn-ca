@@ -298,12 +298,12 @@ ofereix prous avantatges com per què sigui la opció per defecte:
    
    - Petites imatges (logos generals del projecte, etc.)
    
-.. mes:: Mantenir la informació de configuració en fitxers separats i en un altre repositori (3.4)
+.. mes:: Mantenir la informació de configuració en fitxers separats i en un altre repositori
    :tags: Integració; Adaptació; Plugin; NouProducte; Publicació
    
    Això facilita la reutilització del codi. És incorrecte posar la configuració:
    
-   - *Hardwired* en el propi codi
+   - *Hardwired* en el propi codi (veure la ref:`mesura M_A69 <mesura_M_A69>`).
    - En fitxers dels que es fa *commit* al mateix repositori que conté el codi.
    
 .. mes:: No pujar al repositori informació sensible d'usuaris, de l'Ajuntament o de tercers
