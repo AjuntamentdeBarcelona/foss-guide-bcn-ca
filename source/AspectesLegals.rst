@@ -2,33 +2,43 @@
 Aspectes legals
 ***************
 
+Els projectes de codi obert es basen en un conjunt de tecnologies, mètodes de
+treball i maneres de col·laborar, però tot plegat no se sostindria sense un
+dispositiu legal molt especial que son les llicències de programari lliure. L'ús
+de llicències lliures garanteix de per sí una sèrie de drets inalienables, el
+que permet en certa manera flexibilitzar la política de propietat intel·lectual
+(PI).
+
 Propietat intel·lectual
 =======================
 
-.. mes:: Establir l'Ajuntament de Barcelona com a propietari de tot el codi font i la documentació
+Fins ara, els contractes amb proveïdors establien que tot el software
+desenvolupat per a l'Ajuntament en el context del contracte, així com la
+documentació associada, son propietat de l'Ajuntament.
+
+Amb les llicències lliures, encara que no es tingui la propietat legal del codi,
+aquest es podrà utilitzar tants cops com sigui necessari i per la tasca que es
+desitgi, a més de poder modificar-lo, adaptar-lo i redistribuir-lo. Així que
+l'Ajuntament podria renunciar a tota la PI, però de moment i de manera
+conservadora la seguim reclamant, com a política per defecte (amb les excepcions
+que s'indiquen a les alternatives de més avall). L'única cosa que no es pot fer
+sense ser els propietaris legals del codi és re-llicenciar.
+
+El principal criteri per valorar qui s'ha de quedar amb la PI en el cas de
+projectes nous és pensar quina entitat garanteix millor que es prendran en cada
+moment les mesures adequades per difondre el projecte, facilitar contribucions
+de tercers, fer-lo créixer fins assolir els objectius i fer-lo sostenible a
+llarg termini.
+
+.. mes:: Establir l'Ajuntament de Barcelona com a propietari del nou codi font i la nova documentació
+   :id: M_4DC
    :tags: Contractar; Adaptació; Plugin; NouProducte; Publicació
    :links: A_C87; A_EE9; A_3B6
 
-   En el cas de projectes nous el que s'ha de valorar és quina entitat garanteix
-   millor que es prendran en cada moment les mesures adequades per difondre el
-   projecte, facilitar contribucions de tercers, fer-lo créixer fins assolir els
-   objectius i fer-lo sostenible a llarg termini.
-   
-   En cas que l'objectiu sigui una cessió de titularitat a un tercer,
-   obligatòriament se li imposarà al contractista una cessió de titularitat, bé
-   sigui a l'Ajuntament, bé sigui a l'entitat que l'ha d'obtenir en darrera
-   instància.
-   
-   Té sentit deixar la titularitat en mans de l'empresa que desenvolupa en cas
-   de:
-   
-   - Components de programari que son d'utilitat general, incloent empreses i no
-     només administracions públiques
-   - El proveïdor és una empresa o cooperativa amb una trajectòria contrastada
-     de publicació de programari lliure i gestió de comunitats obertes, i té una
-     estratègia creïble d'explotació del producte basada en llicències lliures
-   
-   Per contra, té sentit que l'Ajuntament vulgui concentrar tots els drets de
+   És la opció per defecte, però no la única. Se li imposa al contractista una
+   cessió de titularitat de tot el codi i documentació generades.
+
+   Té especialment sentit que l'Ajuntament vulgui concentrar tots els drets de
    propietat sobre projectes emblemàtics, d'utilitat principalment entre
    administracions públiques, i sobre els quals pretengui determinar en gran
    mesura les regles de governança.
@@ -38,7 +48,8 @@ Propietat intel·lectual
 
    Quan adaptem un producte ja existent, pot ser que per acceptar la inclusió
    del nostre codi al producte original ens demanin signar una CLA o contracte
-   equivalent.
+   equivalent. Si no és així les parts de desenvolupi l'Ajuntament poden ser de
+   la seva propietat.
 
 .. alt:: Cedir la propietat del codi font a una entitat independent sense ànim de lucre
    :tags: Contractar; Plugin; NouProducte; Publicació
@@ -57,29 +68,30 @@ Propietat intel·lectual
    Aquesta entitat pot gestionar altres projectes alliberats per l'Ajuntament o
    d'altres entitats associades de l'àmbit públic.
 
-.. alt:: Establir l'empresa o entitat proveïdora com a propietària de tot el codi font i la documentació
+.. alt:: Establir l'empresa o entitat proveïdora com a propietària del nou codi font i la documentació
+   :id: A_C87
    :tags: Contractar; Plugin; NouProducte
 
-   Fins ara, els contractes amb proveïdors establien que tot el software
-   desenvolupat per a l'Ajuntament en el context del contracte, així com la
-   documentació associada, son propietat de l'Ajuntament.
+   Té sentit deixar la titularitat en mans de l'empresa que desenvolupa en cas
+   de:
    
-   En el context de les llicències lliures o de codi obert, això no té per què
-   ser així. Existeixen bàsicament dues possibilitats (seguint a [Gerloff2014]),
-   i en ambdós casos el resultat final és que el programari es troba a
-   disposició de tothom sota una llicència lliure:
-   
-   #. L'Ajuntament rep la propietat del copyright sobre el codi en virtut del
-      contracte de servei, com fins ara, i distribueix l'obra sota una llicència
-      de programari lliure de la seva elecció.
-   #. El proveïdor manté el copyright sobre l'obra que crea (codi i
-      documentació), però se li imposa l'obligació contractual de publicar-la de
-      manera apropiada sota una determinada llicència de programari lliure (i
-      potser de participar en el manteniment del programari durant el període de
-      temps que s'especifiqui).
+   - Components de programari que son d'utilitat general, incloent empreses i no
+     només administracions públiques.
+   - El proveïdor és una empresa o cooperativa amb una trajectòria contrastada
+     de publicació de programari lliure i gestió de comunitats obertes, i té una
+     estratègia creïble d'explotació del producte basada en llicències lliures.
 
 Triar una llicència per al codi
 ===============================
+
+Separarem la decisió en tres casos, depenent de l'escenari:
+
+1. :code:`NouProducte` o :code:`Publicació`: triem, per defecte, la llicència
+   AGPL.
+2. :code:`Adaptació`: modifiquem un projecte extern ja existent. En aquest cas
+   hem de respectar la llicència que ja tingui.
+3. :code:`Plugin`: triem una llicència d'ús comú en l'ecosistema en que volem
+   integrar un component modular.
 
 .. mes:: Triar la llicència AGPL-3.0 com a llicència de distribució del projecte
    :tags: NouProducte; Publicació
@@ -183,7 +195,6 @@ Triar una llicència per al codi
    comunitat. Ens interessa que més gent utilitzi i contribueixi a mantenir el
    nostre component. Si entre aquestes llicències més populars es troben la AGPL
    o la EUPL, les triarem.
-
 
 Complir amb les obligacions de les llicències
 =============================================
@@ -316,7 +327,7 @@ Complir amb les obligacions de les llicències
    -  Via el propi contracte de la licitació corresponent
    -  A través directament de la llicència del programari
 
-.. mes:: Obligar a tots el contribuïdors de codi externs a enviar un DCO i signar cada *commit*
+.. mes:: Obligar a tots el contribuïdors de codi externs a enviar un DCO i signar cada commit
    :tags: Plugin; NouProducte; Publicació
 
    El **Developer's Certificate of Origin (DCO)** és document utilitzat per
