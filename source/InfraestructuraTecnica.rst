@@ -211,6 +211,7 @@ ofereix prous avantatges com per què sigui la opció per defecte:
 
 .. mes:: Establir permisos al repositori principal adequats a cada tipus de participant
    :tags: Integració; Adaptació; Plugin; NouProducte; Publicació; Document
+   :links: S_518; S_A3D
 
    GitHub té el concepte de **propietari** (*owner*) d'un repositori, que
    correspondrà a un compte que l'Ajuntament té com a organització
@@ -252,6 +253,16 @@ ofereix prous avantatges com per què sigui la opció per defecte:
    governança i qui seguirà tenint la darrera paraula a l'hora d'acceptar
    contribucions.
    
+.. mes:: Integrar les contribucions externes al repositori principal mitjançant el mecanisme de Pull Request
+   :id: M_BD2
+   :tags: Plugin; NouProducte; Publicació
+
+   Com que qualsevol pot clonar el repositori principal i fer modificacions a la
+   seva còpia, no necessitem donar permisos d'escriptura a ningú que no formi
+   part de l'equip principal de desenvolupament. Tothom que vulgui acabar
+   integrant un conjunt de canvis al producte ens ha de fer un Pull Request a
+   GitHub.
+
 .. rec:: Pujar traduccions del fitxer README al repositori principal
    :tags: NouProducte; Publicació
    
@@ -298,7 +309,7 @@ ofereix prous avantatges com per què sigui la opció per defecte:
    
    - Petites imatges (logos generals del projecte, etc.)
    
-.. mes:: Mantenir la informació de configuració en fitxers separats i en un altre repositori
+.. mes:: Mantenir la informació de configuració en fitxers separats i en un repositori privat diferent
    :tags: Integració; Adaptació; Plugin; NouProducte; Publicació
    
    Això facilita la reutilització del codi. És incorrecte posar la configuració:
@@ -309,11 +320,11 @@ ofereix prous avantatges com per què sigui la opció per defecte:
 .. mes:: No pujar al repositori informació sensible d'usuaris, de l'Ajuntament o de tercers
    :tags: Contractar; Integració; Adaptació; Plugin; NouProducte; Publicació
    
-   Com pugui ser: usuaris i contrasenyes, claus públiques o d'altres credencials
-   reals usades en el sistema en producció.
+   Com pugui ser: configuracions, usuaris i contrasenyes, claus públiques o
+   d'altres credencials reals usades en el sistema en producció.
 
-   A les condicions d'execució del contracte, establir penalitzacions si
-   s'infringeix aquesta regla.
+   A les condicions d'execució del contracte, establir penalitzacions (falta
+   greu) si s'infringeix aquesta regla.
    
 .. rec:: Re-sincronitzar cada setmana el repositori propi amb el repositori del projecte upstream
    :tags: Adaptació
@@ -509,7 +520,3 @@ tota la comunitat present i futura del projecte.
    :tags: Plugin; NouProducte; Publicació
    
    Usar `gitter.im <https://gitter.im>`_ o `riot.im <https://riot.im>`_.
-   
-.. mes:: Usar els pull-requests de GitHub per fer revisions de codi públiques de totes les contribucions externes
-   :id: M_BD2
-   :tags: Plugin; NouProducte; Publicació
