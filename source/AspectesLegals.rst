@@ -4,9 +4,9 @@ Aspectes legals
 
 Els projectes de codi obert es basen en un conjunt de tecnologies, mètodes de
 treball i maneres de col·laborar, però tot plegat no se sostindria sense un
-dispositiu legal molt especial que son les llicències de programari lliure. L'ús
-de llicències lliures garanteix de per sí una sèrie de drets inalienables, el
-que permet en certa manera flexibilitzar la política de propietat intel·lectual
+dispositiu legal molt especial: son les llicències de programari lliure. L'ús de
+llicències lliures garanteix de per sí una sèrie de drets inalienables, el que
+permet en certa manera flexibilitzar la política de propietat intel·lectual
 (PI).
 
 Propietat intel·lectual
@@ -18,11 +18,12 @@ documentació associada, son propietat de l'Ajuntament.
 
 Amb les llicències lliures, encara que no es tingui la propietat legal del codi,
 aquest es podrà utilitzar tants cops com sigui necessari i per la tasca que es
-desitgi, a més de poder modificar-lo, adaptar-lo i redistribuir-lo. Així que
-l'Ajuntament podria renunciar a tota la PI, però de moment i de manera
-conservadora la seguim reclamant, com a política per defecte (amb les excepcions
-que s'indiquen a les alternatives de més avall). L'única cosa que no es pot fer
-sense ser els propietaris legals del codi és re-llicenciar.
+desitgi, a més de poder-lo modificar, adaptar i redistribuir (això últim en les
+condicions que estableixi la llicència). Així que l'Ajuntament podria renunciar
+a tota la PI, però de moment i de manera conservadora la seguim reclamant, com a
+política per defecte (amb les excepcions que s'indiquen a les alternatives de
+més avall). L'única cosa que no es pot fer sense ser els propietaris legals del
+codi és re-llicenciar.
 
 El principal criteri per valorar qui s'ha de quedar amb la PI en el cas de
 projectes nous és pensar quina entitat garanteix millor que es prendran en cada
@@ -47,9 +48,9 @@ llarg termini.
    :tags: Contractar; Adaptació
 
    Quan adaptem un producte ja existent, pot ser que per acceptar la inclusió
-   del nostre codi al producte original ens demanin signar una CLA o contracte
-   equivalent. Si no és així les parts de desenvolupi l'Ajuntament poden ser de
-   la seva propietat.
+   del nostre codi al producte original ens demanin signar un *Contributor
+   Licence Agreement* (CLA) o contracte equivalent. Si no és així, les parts que
+   desenvolupi l'Ajuntament poden ser de la seva propietat.
 
 .. alt:: Cedir la propietat del codi font a una entitat independent sense ànim de lucre
    :tags: Contractar; Plugin; NouProducte; Publicació
@@ -175,7 +176,7 @@ Separarem la decisió en tres casos, depenent de l'escenari:
 
    Quan modifiquem un component, i per tal que les nostres modificacions puguin
    potencialment incorporar-se al producte original, cal respectar la llicència
-   que ens ve donada, malgrat en el cas de llicències permissives podríem
+   que ens ve donada, malgrat que en el cas de llicències permissives podríem
    modificar-la.
 
    En el cas d'un desenvolupament sota contracte, cal especificar en els plecs
